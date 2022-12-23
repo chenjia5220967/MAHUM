@@ -4,10 +4,30 @@
 
 Usage
 ---------------------
-### Dataset
+## Input
+
+
+
+
+
+
+### Testing
+    
+After training the MAHUM on the datasets, the extracted abundance and endmember results are saved as a MAT file. You can utilize `./result_display.m` to evaluate the unmixing performance.
+
+
+
+
+## Dataset
 The Jasper Ridge data (512 × 614 pixels) was gathered by AVIRIS over Jasper Ridge in California. The data consist of 224 bands over the wavelength region from 0.38 to 2.5 μm. Considering water vapor and atmospheric effects, bands 1–3, 108–112, 154–166, and 220–224 were removed, leaving a total of 198 spectral bands for our experiments. This work selected a size of 100*100 pixels and retained 198 bands. This data set has four abundances (water, soil, tree, and road).
 
-<p align="center">
-<img src="./result1.png" alt="drawing" width="350"/>
 
-<img src="./result2.png" alt="drawing" width="350"/>
+## Experimental result
+
+### Comparison with other methods.
+<p align="center">
+<img src="./result1.png" alt="drawing" width="700"/>
+
+
+### Results of each part.
+<img src="./result2.png" alt="drawing" width="700"/>
