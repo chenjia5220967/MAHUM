@@ -13,7 +13,7 @@ Usage
 
 ### Testing
     
-After training the MAHUM on the datasets, the extracted abundance and endmember results are saved as a MAT file. You can utilize `./result_display.m` to evaluate the unmixing performance.
+After training the MAHUM on the datasets, the extracted abundance and endmember results are saved as a MAT file. You can utilize `./displayresult.m` to evaluate the unmixing performance.
 
 
 
