@@ -13,8 +13,18 @@ Numpy
 
 ## Input
 
+image Y
 
 
+### Some important parameters
+m, ：Number of endmembers.
+
+col, band： size of image.
+
+coeff, mu,eps, theta, lambda: some parameters of DMBU.
+
+## Output
+endmembers and abundances of three different unmixing methods. (saved as a MAT file)
 
 
 
