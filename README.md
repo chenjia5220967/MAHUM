@@ -4,6 +4,13 @@
 
 Usage
 ---------------------
+## Preliminary preparation
+
+Torch
+
+Numpy
+
+
 ## Input
 
 
@@ -11,7 +18,7 @@ Usage
 
 
 
-### Testing
+## Testing
     
 After training the MAHUM on the datasets, the extracted abundance and endmember results are saved as a MAT file. You can utilize `./displayresult.m` to evaluate the unmixing performance.
 
