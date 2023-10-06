@@ -1,6 +1,23 @@
 # multi-channel autoencoder hyperspectral unmixing model(MAHUM)
 #
+If you find this code useful in your research, please consider citing our work:
 
+```
+@ARTICLE{MAHUM,
+  author={Chen, Jia and Gamba, Paolo and Li, Jun},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={MAHUM: A Multitasks Autoencoder Hyperspectral Unmixing Model}, 
+  year={2023},
+  volume={61},
+  number={},
+  pages={1-16},
+  doi={10.1109/TGRS.2023.3304484}}
+```
+https://ieeexplore.ieee.org/document/10214610
+
+or, If you have any question, please do not hesitate to contact me.
+
+chen_jia@cug.edu.cn
 
 Usage
 ---------------------
